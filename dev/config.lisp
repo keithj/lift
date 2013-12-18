@@ -175,7 +175,7 @@ use asdf:test-op or bind *current-asdf-system-name* yourself."))))))
 			;;
 			(invoke-debugger c)
 			)))
-		  (format t "~&handle config: ~s" form)
+		  ;; (format t "~&handle config: ~s" form)
 		  (destructuring-bind
 			(name &rest args)
 		      form
